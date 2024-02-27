@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+        .outer
+        {
+            height:500px;
+            width: 95%;
+            background-color: #6666ff;
+            padding: 50px;
+        }
+        .in
+        {
+            height:350px;
+            width: 350px;
+            background-color: #0000ff;
+             margin: 80px;
+             border-radius: 10px;
+        }
+       
+        table
+        {
+            padding:  40px;
+        }
+        table td
+        {
+            font-family: arial;
+            font-style:inherit;
+        }
+        </style>
+
+    </head>
+    <body>
+         <div class="outer">
+            <center>
+            <div class="in">
+                <form action="servdata">
+                <table>
+                    <tr>
+                        <td> Roll no:</td>
+                        <td><input type="text" name="rol"></td>
+                    </tr>
+                    <tr>
+                        <td> Name:</td>
+                        <td><input type="text" name="uname"></td>
+                        
+                    </tr>
+                     <tr>
+                        <td> Course:</td>
+                        <td><input type="text" name="cource"></td>
+                        
+                    </tr>
+                     <tr>
+                        <td> Address:</td>
+                        <td><input type="text" name="add"></td>
+                        
+                    </tr>
+                    <td> <input type="submit" value="add"></td>
+                    
+            </table>
+             <form>
+            </div>
+                <hr>
+                <a href="stdisplay">Display Record</a>
+            </center>
+        </div>
+    </body>
+</html>

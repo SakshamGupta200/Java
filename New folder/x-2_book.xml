@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<books>
+    <book>
+        <id>1001</id>
+        <name>c</name>
+        <writer>bob</writer>
+        <price>243</price>
+    </book>
+    <book>
+        <id>1002</id>
+        <name>java</name>
+        <writer>david</writer>
+        <price>343</price>
+    </book>
+    <book>
+        <id>1003</id>
+        <name>python</name>
+        <writer>william</writer>
+        <price>500</price>
+    </book>
+</books>
